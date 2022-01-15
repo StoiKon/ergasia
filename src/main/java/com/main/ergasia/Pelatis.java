@@ -18,6 +18,15 @@ public Pelatis(String username,String password,String ari8mosKartas, String eido
 public Pelatis() {
 	super();
 }
+
+
+public Pelatis(String onoma, String ari8mosKartas, String eidosKartas, String hmeromhniaLhjhs, String kwdikosAsfaleiasKartas) {
+	this.ari8mosKartas = ari8mosKartas;
+	this.eidosKartas = eidosKartas;
+	this.hmeromhniaLhjhs = hmeromhniaLhjhs;
+	this.kwdikosAsfaleiasKartas = kwdikosAsfaleiasKartas;
+	this.onomaUser = onoma;
+}
 public String getAri8mosKartas() {
 	return ari8mosKartas;
 }

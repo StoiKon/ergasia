@@ -30,4 +30,12 @@ public void setKwdikos(String kwdikos) {
 	this.kwdikos = kwdikos;
 }
 
+public String getRolos() {
+	return rolos;
+}
+
+public void setRolos(String rolos) {
+	this.rolos = rolos;
+}
+
 }

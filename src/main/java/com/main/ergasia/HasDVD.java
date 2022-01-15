@@ -1,16 +1,16 @@
 package com.main.ergasia;
 
-public class hasDVD {
+public class HasDVD {
 private int idPurchase,DVDid,posothta;
 private String DVDtitlos;
-public hasDVD(int idPurchase, int dVDid, int posothta, String dVDtitlos) {
+public HasDVD(int idPurchase, int dVDid, int posothta, String dVDtitlos) {
 	super();
 	this.idPurchase = idPurchase;
 	DVDid = dVDid;
 	this.posothta = posothta;
 	DVDtitlos = dVDtitlos;
 }
-public hasDVD() {
+public HasDVD() {
 	super();
 }
 public int getIdPurchase() {

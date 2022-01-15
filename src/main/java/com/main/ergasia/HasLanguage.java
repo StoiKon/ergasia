@@ -1,15 +1,15 @@
 package com.main.ergasia;
 
-public class hasLanguage {
+public class HasLanguage {
 private String languageName,DVDtitlos;
 private int DVDid;
-public hasLanguage(String languageName, String dVDtitlos, int dVDid) {
+public HasLanguage(String languageName, String dVDtitlos, int dVDid) {
 	super();
 	this.languageName = languageName;
 	DVDtitlos = dVDtitlos;
 	DVDid = dVDid;
 }
-public hasLanguage() {
+public HasLanguage() {
 	super();
 }
 public String getLanguageName() {

@@ -1,15 +1,15 @@
 package com.main.ergasia;
 
-public class hasH8opoious {
+public class HasH8opoious {
 private String H8opoiosName,DVDtitlos;
 private int DVDid;
 
 
 
-public hasH8opoious() {
+public HasH8opoious() {
 	super();
 }
-public hasH8opoious(String h8opoiosName, String dVDtitlos, int dVDid) {
+public HasH8opoious(String h8opoiosName, String dVDtitlos, int dVDid) {
 	super();
 	H8opoiosName = h8opoiosName;
 	DVDtitlos = dVDtitlos;
